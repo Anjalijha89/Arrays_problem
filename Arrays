@@ -1,0 +1,52 @@
+public class array {
+   /*1. Linear search
+    public static int linear_array(int n[],int key)
+
+    {
+        for(int i=0;i<n.length;i++)
+        {
+            if(n[i]==key)
+            {
+                return i;
+            }
+        }
+        return -1;
+
+    }
+    public static void main(String args[])
+    {
+        int n[]={2,4,6,8,10,12,14,16};
+        int key= 8;
+        int index = linear_array(n,key);
+        if(index==-1)
+        {
+            System.out.println("Not found");
+        }
+        else
+        {
+            System.out.println("Key is at the index of :" +index);
+
+        }
+    }
+
+    // 2. Largest number
+    public static int largest_number(int n[])
+    {
+        int largest= Integer.MIN_VALUE;
+        for(int i=0;i<n.length;i++)
+        {
+            if(n[i]>largest)
+            {
+                largest=n[i];
+            }
+        }
+        return largest;
+    }
+
+
+     public static void main(String args[])
+     {
+         int n[]={17,112,6,89,50};
+         System.out.println("largest number is:" +largest_number(n));
+     }
+
